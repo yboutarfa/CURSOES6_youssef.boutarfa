@@ -1,0 +1,30 @@
+/*
+    autor: Youssef Boutarfa
+    fecha: 18 de noviembre 2022
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    height: 1600px;
+    background-image: linear-gradient(to right bottom ,red,white,orange);
+    text-align: center;
+}
+
+header,footer{
+    background-image: radial-gradient(white ,green);
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+    text-shadow: -3px 5px 5px black;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
